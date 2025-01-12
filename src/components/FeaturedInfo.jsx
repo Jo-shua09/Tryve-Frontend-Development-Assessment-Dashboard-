@@ -3,7 +3,7 @@ import { ArrowDownward, ArrowUpward } from "@mui/icons-material";
 
 const FeaturedInfo = () => {
   return (
-    <div className="w-full flex justify-between ">
+    <div className="w-full flex justify-between">
       <div className=" flex-1 mx-5 p-7 rounded-xl shadow-[1px_1px_5px_rgba(0,0,0,0.2)]">
         <span className="text-2xl">revenue</span>
         <div className=" my-2 flex items-center gap-x-8">

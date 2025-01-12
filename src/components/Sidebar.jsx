@@ -68,7 +68,7 @@ const Sidebar = () => {
               }`}
               onClick={() => handleMenuClick("users")}
             >
-              <Link to="/users">
+              <Link to="/userslist">
                 <PermIdentity sx={{ fontSize: "2rem" }} /> <span className="text-xl">users</span>
               </Link>
             </li>

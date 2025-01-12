@@ -86,3 +86,16 @@ export const transactions = [
     status: "Proceed",
   },
 ];
+
+export const userRows = [
+  { id: 1, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
+  { id: 2, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
+  { id: 3, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
+  { id: 4, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
+  { id: 5, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
+  { id: 6, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
+  { id: 7, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
+  { id: 8, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
+  { id: 9, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
+  { id: 10, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
+];
