@@ -62,24 +62,27 @@ const Sidebar = () => {
         <div className="mb-2">
           <h3 className="text-xl text-gray-500">quick menu</h3>
           <ul className=" list-none p-1">
-            <li
-              className={`p-2 cursor-pointer gap-x-1 mb-1 flex items-center rounded-xl ${
-                activeMenu === "users" ? "bg-gray-300" : "hover:bg-gray-300"
-              }`}
-              onClick={() => handleMenuClick("users")}
-            >
-              <Link to="/userslist">
+            <Link to="/userslist">
+              <li
+                className={`p-2 cursor-pointer gap-x-1 mb-1 flex items-center rounded-xl ${
+                  activeMenu === "users" ? "bg-gray-300" : "hover:bg-gray-300"
+                }`}
+                onClick={() => handleMenuClick("users")}
+              >
                 <PermIdentity sx={{ fontSize: "2rem" }} /> <span className="text-xl">users</span>
-              </Link>
-            </li>
-            <li
-              className={`p-2 cursor-pointer gap-x-1 mb-1 flex items-center rounded-xl ${
-                activeMenu === "products" ? "bg-gray-300" : "hover:bg-gray-300"
-              }`}
-              onClick={() => handleMenuClick("products")}
-            >
-              <Storefront sx={{ fontSize: "2rem" }} /> <span className="text-xl">products</span>
-            </li>
+              </li>
+            </Link>
+            <Link to="/products">
+              <li
+                className={`p-2 cursor-pointer gap-x-1 mb-1 flex items-center rounded-xl ${
+                  activeMenu === "products" ? "bg-gray-300" : "hover:bg-gray-300"
+                }`}
+                onClick={() => handleMenuClick("products")}
+              >
+                <Storefront sx={{ fontSize: "2rem" }} /> <span className="text-xl">products</span>
+              </li>
+            </Link>
+
             <li
               className={`p-2 cursor-pointer flex gap-x-1 mb-1 items-center rounded-xl ${
                 activeMenu === "transactions" ? "bg-gray-300" : "hover:bg-gray-300"

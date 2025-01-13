@@ -53,27 +53,27 @@ const Users = () => {
             <div className="pb-5">
               <div className="flex flex-col mt-5">
                 <label className="mb-1 text-[1.4rem]">username</label>
-                <input type="text" placeholder="joashua2021" className="w-[340px] border-b border-gray-500 focus:border-none h-10 pl-2 text-xl" />
+                <input type="text" placeholder="joashua2021" className="w-[340px] border-b border-gray-500 focus:outline-none h-10 pl-2 text-xl" />
               </div>
               <div className="flex flex-col mt-5">
                 <label className="mb-1 text-[1.4rem]">full name</label>
-                <input type="text" placeholder="joshua onyeka" className="border-b border-gray-500 focus:border-none h-10 pl-2 text-xl" />
+                <input type="text" placeholder="joshua onyeka" className="border-b border-gray-500 focus:outline-none h-10 pl-2 text-xl" />
               </div>
               <div className="flex flex-col mt-5">
                 <label className="mb-1 text-[1.4rem]">email</label>
                 <input
                   type="email"
                   placeholder="joshuaonyeka2020@gmail.com"
-                  className="border-b border-gray-500 focus:border-none h-10 pl-2 text-xl"
+                  className="border-b border-gray-500 focus:outline-none h-10 pl-2 text-xl"
                 />
               </div>
               <div className="flex flex-col mt-5">
                 <label className="mb-1 text-[1.4rem]">phone</label>
-                <input type="number" placeholder="+000 000 0000" className="border-b border-gray-500 focus:border-none h-10 pl-2 text-xl" />
+                <input type="number" placeholder="+000 000 0000" className="border-b border-gray-500 focus:outline-none h-10 pl-2 text-xl" />
               </div>
               <div className="flex flex-col mt-5">
                 <label className="mb-1 text-[1.4rem]">address</label>
-                <input type="address" placeholder="New york | USA" className="border-b border-gray-500 focus:border-none h-10 pl-2 text-xl" />
+                <input type="address" placeholder="New york | USA" className="border-b border-gray-500 focus:outline-none h-10 pl-2 text-xl" />
               </div>
             </div>
 
@@ -83,7 +83,7 @@ const Users = () => {
                 <label htmlFor="file">
                   <Publish className="cursor-pointer " sx={{ fontSize: "2rem" }} />
                 </label>
-                <input type="file" id="file" className="" />
+                <input type="file" id="file" className="hidden" />
               </div>
               <button className="rounded-lg bg-blue-900 text-white py-3 px-7 capitalize text-xl font-bold">update</button>
             </div>

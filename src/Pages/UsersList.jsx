@@ -78,7 +78,7 @@ const UsersList = () => {
         rows={rows}
         columns={userColumns}
         disableRowSelectionOnClick
-        initialState={{ pagination: { paginationModel: { pageSize: 5 } } }}
+        initialState={{ pagination: { paginationModel: { pageSize: 9 } } }}
         pageSizeOptions={[5, 10]}
         checkboxSelection
         sx={{

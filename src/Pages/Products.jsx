@@ -21,13 +21,17 @@ const Products = () => {
     },
     {
       field: "product",
-      headerName: "Product  ",
+      headerName: "Product",
       width: 200,
       headerClassName: "custom-header",
       renderCell: (params) => {
         return (
           <div className="flex items-center gap-x-5 h-full">
-            <img src={params.row.img || { productRows.img }} alt="user" className="w-10 h-10 rounded-full object-cover" />
+            <img
+              src={params.row.img} // Corrected image source
+              alt="product"
+              className="w-10 h-10 rounded-full object-cover"
+            />
             <div className="flex items-center h-full text-gray-500 font-semibold text-lg">{params.row.name}</div>
           </div>
         );

@@ -98,4 +98,27 @@ export const userRows = [
   { id: 8, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
   { id: 9, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
   { id: 10, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
+  { id: 11, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
+  { id: 12, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
+  { id: 13, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
+  { id: 14, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
+  { id: 15, username: "Joshua onyeka", avatar: "face.jpg", email: "joshuaonyeka2020@gmail.com", status: "active", transaction: "$1910.83" },
+];
+
+export const productRows = [
+  { id: 1, name: "oriamo airpods", img: "", stock: "112", status: "active", price: "$150.83" },
+  { id: 2, name: "oriamo airpods", img: "", stock: "112", status: "active", price: "$150.83" },
+  { id: 3, name: "oriamo airpods", img: "", stock: "112", status: "active", price: "$150.83" },
+  { id: 4, name: "oriamo airpods", img: "", stock: "112", status: "active", price: "$150.83" },
+  { id: 5, name: "oriamo airpods", img: "", stock: "112", status: "active", price: "$150.83" },
+  { id: 6, name: "oriamo airpods", img: "", stock: "112", status: "active", price: "$150.83" },
+  { id: 7, name: "oriamo airpods", img: "", stock: "112", status: "active", price: "$150.83" },
+  { id: 8, name: "oriamo airpods", img: "", stock: "112", status: "active", price: "$150.83" },
+  { id: 9, name: "oriamo airpods", img: "", stock: "112", status: "active", price: "$150.83" },
+  { id: 10, name: "oriamo airpods", img: "", stock: "112", status: "active", price: "$150.83" },
+  { id: 11, name: "oriamo airpods", img: "", stock: "112", status: "active", price: "$150.83" },
+  { id: 12, name: "oriamo airpods", img: "", stock: "112", status: "active", price: "$150.83" },
+  { id: 13, name: "oriamo airpods", img: "", stock: "112", status: "active", price: "$150.83" },
+  { id: 14, name: "oriamo airpods", img: "", stock: "112", status: "active", price: "$150.83" },
+  { id: 15, name: "oriamo airpods", img: "", stock: "112", status: "active", price: "$150.83" },
 ];
