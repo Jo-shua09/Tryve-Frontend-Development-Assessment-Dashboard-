@@ -71,7 +71,7 @@ const Products = () => {
               <input type="file" id="file" className="hidden" />
             </div>
             <Link to="/newproducts">
-              <button className="bg-blue-700 font-bold py-3 px-7 w-56 text-white text-xl rounded-lg capitalize sm:mt-10 mt-5 mb-5">create</button>
+              <button className="bg-blue-700 font-bold py-3 px-7 w-56 text-white text-xl rounded-lg capitalize sm:mt-10 mt-5 mb-5">update</button>
             </Link>
           </div>
         </form>

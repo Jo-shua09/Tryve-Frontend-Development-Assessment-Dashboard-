@@ -11,7 +11,7 @@ const ProductsList = () => {
     setRows(rows.filter((row) => row.id !== id));
   };
 
-  const userColumns = [
+  const productColumns = [
     {
       field: "id",
       headerName: "ID",
@@ -80,7 +80,7 @@ const ProductsList = () => {
     <div className="pt-3 flex-[4] m-5 w-full h-full shadow-[1px_1px_5px_rgba(0,0,0,0.2)] ml-4 overflow-hidden">
       <DataGrid
         rows={rows}
-        columns={userColumns}
+        columns={productColumns}
         disableRowSelectionOnClick
         initialState={{ pagination: { paginationModel: { pageSize: 9 } } }}
         pageSizeOptions={[5, 10]}
