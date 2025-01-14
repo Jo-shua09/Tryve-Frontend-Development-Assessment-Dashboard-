@@ -29,16 +29,16 @@ const Sidebar = () => {
           <h3 className="text-xl text-gray-500">Dashboard</h3>
           <ul className=" list-none p-1">
             <ul className="list-none p-1">
-              <li
-                className={`p-2 cursor-pointer gap-x-1 mb-1 flex items-center rounded-xl ${
-                  activeMenu === "home" ? "bg-gray-300" : "hover:bg-gray-300"
-                }`}
-                onClick={() => handleMenuClick("home")}
-              >
-                <Link to="/">
+              <Link to="/">
+                <li
+                  className={`p-2 cursor-pointer gap-x-1 mb-1 flex items-center rounded-xl ${
+                    activeMenu === "home" ? "bg-gray-300" : "hover:bg-gray-300"
+                  }`}
+                  onClick={() => handleMenuClick("home")}
+                >
                   <LineStyle sx={{ fontSize: "2rem" }} /> <span className="text-xl">home</span>
-                </Link>
-              </li>
+                </li>
+              </Link>
               <li
                 className={`p-2 cursor-pointer gap-x-1 mb-1 flex items-center rounded-xl ${
                   activeMenu === "analytics" ? "bg-gray-300" : "hover:bg-gray-300"
@@ -72,7 +72,7 @@ const Sidebar = () => {
                 <PermIdentity sx={{ fontSize: "2rem" }} /> <span className="text-xl">users</span>
               </li>
             </Link>
-            <Link to="/products">
+            <Link to="/productslist">
               <li
                 className={`p-2 cursor-pointer gap-x-1 mb-1 flex items-center rounded-xl ${
                   activeMenu === "products" ? "bg-gray-300" : "hover:bg-gray-300"

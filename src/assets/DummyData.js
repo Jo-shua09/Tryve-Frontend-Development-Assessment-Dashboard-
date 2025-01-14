@@ -49,6 +49,21 @@ export const userData = [
   },
 ];
 
+export const productData = [
+  {
+    name: "jan",
+    Sales: 4500,
+  },
+  {
+    name: "feb",
+    Sales: 2600,
+  },
+  {
+    name: "mar",
+    Sales: 3400,
+  },
+];
+
 export const members = [
   { id: 1, name: "Joshua Onyeka", role: "Frontend Developer", imageUrl: "face.jpg" },
   { id: 2, name: "Jane Doe", role: "Backend Developer", imageUrl: "face.jpg" },
