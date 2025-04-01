@@ -18,10 +18,10 @@ const Topbar = () => {
 
   return (
     <div className="w-full h-auto shadow-sm bg-white fixed top-0 z-[99999]">
-      <div className="flex justify-between items-center px-5 py-4">
+      <div className="flex justify-between items-center px-5 md:py-4 py-5">
         <div className="lg:block">
           <Link to="/">
-            <span className="font-bold text-3xl md:text-3xl lg:text-4xl text-blue-950 cursor-pointer">
+            <span className="font-bold text-5xl md:text-3xl lg:text-4xl text-blue-950 cursor-pointer">
               MyDashboard
             </span>
           </Link>
@@ -30,7 +30,7 @@ const Topbar = () => {
         <div className="flex items-center gap-x-2 md:gap-x-4 lg:gap-x-6">
           <div className="relative cursor-pointer">
             <NotificationsNone
-              sx={{ fontSize: { xs: "1.8rem", md: "2.2rem", lg: "2.5rem" } }}
+              sx={{ fontSize: { xs: "3rem", md: "2.2rem", lg: "2.5rem" } }}
             />
             <span className="absolute -top-1 right-0 text-white bg-red-800 rounded-full h-3 w-3 md:h-4 md:w-4 p-[.7rem] text-sm md:text-xl font-bold flex items-center justify-center">
               2
@@ -39,7 +39,7 @@ const Topbar = () => {
 
           <div className="relative cursor-pointer">
             <Language
-              sx={{ fontSize: { xs: "1.8rem", md: "2.2rem", lg: "2.5rem" } }}
+              sx={{ fontSize: { xs: "3rem", md: "2.2rem", lg: "2.5rem" } }}
             />
             <span className="absolute -top-1 right-0 text-white bg-red-800 rounded-full h-3 w-3 md:h-4 md:w-4 p-[.7rem] text-sm md:text-xl font-bold flex items-center justify-center">
               2
@@ -56,7 +56,7 @@ const Topbar = () => {
 
           <div className="relative cursor-pointer">
             <Settings
-              sx={{ fontSize: { xs: "1.8rem", md: "2.2rem", lg: "2.5rem" } }}
+              sx={{ fontSize: { xs: "3rem", md: "2.2rem", lg: "2.5rem" } }}
             />
           </div>
 
@@ -65,9 +65,9 @@ const Topbar = () => {
             onClick={toggleSidebar}
           >
             {showSidebar ? (
-              <Close sx={{ fontSize: { xs: "1.8rem", md: "2.2rem" } }} />
+              <Close sx={{ fontSize: { xs: "3rem", md: "2.2rem" } }} />
             ) : (
-              <Menu sx={{ fontSize: { xs: "1.8rem", md: "2.2rem" } }} />
+              <Menu sx={{ fontSize: { xs: "3rem", md: "2.2rem" } }} />
             )}
           </div>
         </div>
