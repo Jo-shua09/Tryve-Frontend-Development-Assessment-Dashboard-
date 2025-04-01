@@ -1,5 +1,5 @@
 import { userData } from "../../Services/DummyData";
-import Chart from "../../Components/Chart";
+import Chart from "../../components/Chart";
 import FeaturedInfo from "./Sections/FeaturedInfo";
 import WidgetSm from "./Sections/WidgetSm";
 import WidgetLg from "./Sections/WidgetLg";
