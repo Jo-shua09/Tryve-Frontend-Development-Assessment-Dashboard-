@@ -7,6 +7,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import PropTypes from "prop-types";
 
 const Chart = ({ title, data, dataKey, grid }) => {
   return (
@@ -23,6 +24,17 @@ const Chart = ({ title, data, dataKey, grid }) => {
       </ResponsiveContainer>
     </div>
   );
+};
+
+Chart.propTypes = {
+  title: PropTypes.string.isRequired,
+  data: PropTypes.arrayOf(PropTypes.object).isRequired,
+  dataKey: PropTypes.string.isRequired,
+  grid: PropTypes.bool,
+};
+
+Chart.defaultProps = {
+  grid: false,
 };
 
 export default Chart;
