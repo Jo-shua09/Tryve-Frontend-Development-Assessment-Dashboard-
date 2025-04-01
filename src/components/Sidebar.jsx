@@ -23,7 +23,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="w-full h-custom bg-custom1 pt-3">
+    <div className="w-[16.5%] h-custom fixed bg-custom1 pt-3">
       <div className="p-5 text-custom2">
         <div className="mb-2">
           <h3 className="text-xl text-gray-500">Dashboard</h3>
