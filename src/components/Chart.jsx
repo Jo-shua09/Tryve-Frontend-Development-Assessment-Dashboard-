@@ -1,9 +1,16 @@
-import React from "react";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
 
 const Chart = ({ title, data, dataKey, grid }) => {
   return (
-    <div className="m-5 p-5 shadow-[1px_1px_5px_rgba(0,0,0,0.2)]">
+    <div className="p-5 w-full h-full my-5 shadow-[1px_1px_5px_rgba(0,0,0,0.2)]">
       <h3 className="mb-5 text-2xl font-semibold">{title}</h3>
       <ResponsiveContainer width="100%" height="100%" aspect={4 / 1}>
         <LineChart data={data}>

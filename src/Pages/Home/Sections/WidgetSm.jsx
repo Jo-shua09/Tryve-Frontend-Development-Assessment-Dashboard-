@@ -1,6 +1,6 @@
 import { Visibility, VisibilityOff } from "@mui/icons-material";
-import React, { useState } from "react";
-import { members } from "../assets/DummyData";
+import { useState } from "react";
+import { members } from "../../../Services/DummyData";
 
 const WidgetSm = () => {
   // State to manage visibility of each member
@@ -20,13 +20,17 @@ const WidgetSm = () => {
   };
 
   return (
-    <div className="flex-1 shadow-[1px_1px_5px_rgba(0,0,0,0.2)] p-5">
+    <div className="w-full md:flex-1 shadow-[1px_1px_5px_rgba(0,0,0,0.2)] p-5">
       <span className="text-3xl font-bold">new members</span>
       {members.map((data) => (
         <ul className="m-0 p-0 list-none" key={data.id}>
           {visibility[data.id] && (
             <li className="flex items-center justify-between my-5 mx-0">
-              <img src={data.imageUrl} alt="" className="w-14 h-14 rounded-full object-cover cursor-pointer" />
+              <img
+                src={data.imageUrl}
+                alt=""
+                className="w-14 h-14 rounded-full object-cover cursor-pointer"
+              />
               <div className="flex flex-col">
                 <span className="font-semibold text-2xl">{data.name}</span>
                 <span className="text-2xl font-light">{data.role}</span>

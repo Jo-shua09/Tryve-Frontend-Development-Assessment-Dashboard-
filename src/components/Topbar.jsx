@@ -1,15 +1,18 @@
-import React from "react";
 import { NotificationsNone, Language, Settings } from "@mui/icons-material";
-// import LanguageIcon from "@mui/icons-material/Language";
-// import SettingsIcon from "@mui/icons-material/Settings";
+import { Link } from "react-router-dom";
 
 const Topbar = () => {
   return (
-    <div className="w-full h-auto shadow-sm bg-white sticky top-0 z-[99999]">
+    <div className="w-full h-auto shadow-sm bg-white fixed top-0 z-[99999]">
       <div className="flex justify-between items-center px-5 py-4 ">
         <div className="">
-          <span className="font-bold text-4xl text-blue-950 cursor-pointer">MyDashboard</span>
+          <Link to="/">
+            <span className="font-bold text-4xl text-blue-950 cursor-pointer">
+              MyDashboard
+            </span>
+          </Link>
         </div>
+
         <div className=" flex items-center gap-x-6">
           <div className="relative cursor-pointer ">
             <NotificationsNone sx={{ fontSize: "2.5rem" }} />
@@ -27,7 +30,11 @@ const Topbar = () => {
             <Settings sx={{ fontSize: "2.5rem" }} />
           </div>
           <div className="w-full h-full ml-10">
-            <img src="face.jpg" alt="" className="w-12 h-12 rounded-full cursor-pointer" />
+            <img
+              src="face.jpg"
+              alt=""
+              className="w-12 h-12 rounded-full cursor-pointer"
+            />
           </div>
         </div>
       </div>
