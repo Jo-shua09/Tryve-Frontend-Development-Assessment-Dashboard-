@@ -23,7 +23,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="w-[16.5%] h-custom fixed bg-custom1 pt-3">
+    <div className="md:w-[16.5%] w-full h-custom md:fixed bg-custom1 pt-3">
       <div className="p-5 text-custom2">
         <div className="mb-2">
           <h3 className="text-xl text-gray-500">Dashboard</h3>
@@ -37,7 +37,7 @@ const Sidebar = () => {
                   onClick={() => handleMenuClick("home")}
                 >
                   <LineStyle sx={{ fontSize: "2rem" }} />{" "}
-                  <span className="text-2xl">home</span>
+                  <span className="md:text-2xl text-3xl">home</span>
                 </li>
               </Link>
 
@@ -51,7 +51,7 @@ const Sidebar = () => {
                   onClick={() => handleMenuClick("analytics")}
                 >
                   <Timeline sx={{ fontSize: "2rem" }} />{" "}
-                  <span className="text-2xl">analytics</span>
+                  <span className="md:text-2xl text-3xl">analytics</span>
                 </li>
               </Link>
 
@@ -63,7 +63,7 @@ const Sidebar = () => {
                   onClick={() => handleMenuClick("sales")}
                 >
                   <TrendingUp sx={{ fontSize: "2rem" }} />{" "}
-                  <span className="text-2xl">sales</span>
+                  <span className="md:text-2xl text-3xl">sales</span>
                 </li>
               </Link>
             </ul>
@@ -81,7 +81,7 @@ const Sidebar = () => {
                 onClick={() => handleMenuClick("users")}
               >
                 <PermIdentity sx={{ fontSize: "2rem" }} />{" "}
-                <span className="text-2xl">users</span>
+                <span className="md:text-2xl text-3xl">users</span>
               </li>
             </Link>
 
@@ -95,7 +95,7 @@ const Sidebar = () => {
                 onClick={() => handleMenuClick("products")}
               >
                 <Storefront sx={{ fontSize: "2rem" }} />{" "}
-                <span className="text-2xl">products</span>
+                <span className="md:text-2xl text-3xl">products</span>
               </li>
             </Link>
 
@@ -108,7 +108,7 @@ const Sidebar = () => {
               onClick={() => handleMenuClick("transactions")}
             >
               <AttachMoney sx={{ fontSize: "2rem" }} />{" "}
-              <span className="text-2xl">transactions</span>
+              <span className="md:text-2xl text-3xl">transactions</span>
             </li>
 
             <li
@@ -118,7 +118,7 @@ const Sidebar = () => {
               onClick={() => handleMenuClick("reports")}
             >
               <BarChartOutlined sx={{ fontSize: "2rem" }} />{" "}
-              <span className="text-2xl">reports</span>
+              <span className="md:text-2xl text-3xl">reports</span>
             </li>
           </ul>
         </div>
@@ -133,7 +133,7 @@ const Sidebar = () => {
               onClick={() => handleMenuClick("mail")}
             >
               <MailOutline sx={{ fontSize: "2rem" }} />{" "}
-              <span className="text-2xl">mail</span>
+              <span className="md:text-2xl text-3xl">mail</span>
             </li>
 
             <li
@@ -143,7 +143,7 @@ const Sidebar = () => {
               onClick={() => handleMenuClick("feedback")}
             >
               <DynamicFeed sx={{ fontSize: "2rem" }} />{" "}
-              <span className="text-2xl">feedback</span>
+              <span className="md:text-2xl text-3xl">feedback</span>
             </li>
 
             <li
@@ -153,7 +153,7 @@ const Sidebar = () => {
               onClick={() => handleMenuClick("message")}
             >
               <ChatBubbleOutline sx={{ fontSize: "2rem" }} />{" "}
-              <span className="text-2xl">message</span>
+              <span className="md:text-2xl text-3xl">message</span>
             </li>
           </ul>
         </div>

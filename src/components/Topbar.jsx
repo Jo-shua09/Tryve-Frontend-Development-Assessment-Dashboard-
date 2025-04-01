@@ -76,12 +76,12 @@ const Topbar = () => {
           className={`fixed top-0 right-0 h-full bg-white shadow-lg transition-transform duration-300 ease-in-out lg:hidden ${
             showSidebar ? "translate-x-0" : "translate-x-full"
           }`}
-          style={{ width: "75%" }}
+          style={{ width: "50%" }}
           onClick={toggleSidebar}
         >
           <div className="absolute top-4 right-4">
             <Close
-              sx={{ fontSize: { xs: "1.8rem", md: "2.2rem" } }}
+              sx={{ fontSize: { xs: "3rem", md: "2.2rem" } }}
               onClick={toggleSidebar}
               className="cursor-pointer"
             />
