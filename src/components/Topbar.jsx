@@ -77,6 +77,7 @@ const Topbar = () => {
             showSidebar ? "translate-x-0" : "translate-x-full"
           }`}
           style={{ width: "75%" }}
+          onClick={toggleSidebar}
         >
           <div className="absolute top-4 right-4">
             <Close
